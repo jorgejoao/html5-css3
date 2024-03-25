@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grouping Tags</title>
+
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: dimgray;
+                margin: 0px;
+            }
+            header{
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+            }
+            nav{
+                background-color: rgb(102,102,102);
+                padding: 3px;
+                box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+            }
+            nav > a{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                margin-right: 20px;
+            }
+            nav > a:hover{
+                text-decoration: underline;
+            }
+            main{
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 15px 0px;
+                box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+            }
+            article{
+                background-color: lightgray;
+                padding: 5px;
+            }
+            article > aside{
+                background-color: rgb(165, 165, 165);
+            }
+            footer{
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 6px;
+                margin: 0px;
+            }
+            footer > p {
+                margin: 0px;
+            }
+            div#bola{
+                background-color: #daf;
+                width: 100px;
+                height: 100px;
+                margin: 10px;
+                border-radius: 50%;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Meu site</h1>
+
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+        </header>
+    
+        <main>
+            <section id="assuntos">
+                <p>Esportes Política Tecnologia</p>
+            </section>
+
+            <section id="noticias">
+                <article>
+                    <h2>Notícias sobre Angola</h2>
+                    <p>
+                        Unlike many client-side web programming books, this book presents not only HTML and CSS, but also JavaScript, the document object model (DOM), and canvas. With that programming depth, the book works well for sophomore and junior Computer Science majors who have programming experience. With the first seven chapters devoted to HTML and CSS and a gentle introduction to programming concepts in the JavaScript chapters, the textbook can also work well for non-Computer Science majors with no prerequisite programming knowledge.</p>
+
+                    <aside>
+                        <p>Artigo escrito por João Lourenço</p>
+                    </aside>
+                </article>
+
+                <article>
+
+                </article>
+            </section>
+        </main>
+
+        <footer>
+           <p>Desenvolvido por: Lavom Company</p>
+        </footer>
+
+        <div id="bola"> 
+        </div>
+    
+    </body>
+
+</html>

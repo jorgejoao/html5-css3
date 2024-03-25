@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #1e402f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1#principal{
+    background-color: #3c805e;
+    color: #fff;
+    text-align: center;
+}
+
+h2{
+    color: #3c805e;
+}
+
+.basico{
+    color: #3c805e;
+}
+
+.intermediario{
+    color: #80793C;
+}
+
+.avancado{
+    color: #803C3C;
+}
+
+.destaque{
+    background-color: #C5C56070;
+}
